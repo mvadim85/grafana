@@ -20,7 +20,7 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
   rect:
-    dataRef: "test-data-large-cos"
+    dataRef: "FW-RU-IAP2: ICMP response time"
     label:
       separator: "cr"
       units: "none"
