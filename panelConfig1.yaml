@@ -33,7 +33,7 @@ cells:
         - {color: "red", level: 1000}
     link: *grafana-home
   db_transactions:
-    dataRef: "test-flow"
+    dataRef: "WZyNZVddbkoxjUyWbGmd-7"
     label:
       separator: "cr"
       units: "ops"
