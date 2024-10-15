@@ -24,7 +24,7 @@ cells:
     label:
       separator: "cr"
       units: "none"
-      decimalPoints: 0
+      decimalPoints: 2
     labelColor:
       gradientMode: "hue"
       thresholds:
