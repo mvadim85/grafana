@@ -32,7 +32,7 @@ cells:
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
     link: *grafana-home
-  WZyNZVddbkoxjUyWbGmd-7:
+  activeworker2:
     dataRef: "test-data-large-cos"
     label:
       separator: "cr"
