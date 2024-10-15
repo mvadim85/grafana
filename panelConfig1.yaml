@@ -33,7 +33,7 @@ cells:
         - {color: "red", level: 1000}
     link: *grafana-home
   activeworker2:
-    dataRef: "FW-RU-IAP2: ICMP response time"
+    dataRef: "FW-RU-IAP2: ICMP response time123"
     label:
       separator: "cr"
       units: "ops"
