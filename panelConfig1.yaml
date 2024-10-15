@@ -32,8 +32,8 @@ cells:
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
     link: *grafana-home
-  db_transactions:
-    dataRef: "WZyNZVddbkoxjUyWbGmd-7"
+  WZyNZVddbkoxjUyWbGmd-7:
+    dataRef: "test-data-large-cos"
     label:
       separator: "cr"
       units: "ops"
