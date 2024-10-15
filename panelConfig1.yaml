@@ -33,7 +33,7 @@ cells:
         - {color: "red", level: 1000}
     link: *grafana-home
   activeworker2:
-    dataRef: "test-data-large-cos"
+    dataRef: "test-flow"
     label:
       separator: "cr"
       units: "ops"
