@@ -31,4 +31,3 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 500}
         - {color: "red", level: 1000}
-    link: *grafana-home
