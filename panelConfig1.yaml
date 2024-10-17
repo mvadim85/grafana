@@ -14,7 +14,7 @@ anchorLinks:
 cellIdPreamble: "cell-"
 cells: 
   peer1:
-    dataRef: "test-data-large-cos"
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 178.176.133.56"
     label:
       separator: "cr"
       units: "ops"
