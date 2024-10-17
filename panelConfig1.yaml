@@ -25,4 +25,12 @@ cells:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
     fillLevel:
+      # The optional data value at or below which the fillLevel will be set to 0%.
+      thresholdOffValue: 0
+
+      # These terms define the conversion from incoming data values to percent-fill.
+      thresholdLwrValue: 0
+      thresholdLwrFillPercent: 0
+      thresholdUprValue: 900
+      thresholdUprFillPercent: 100
       fillDirection: 'bottomToTop'
