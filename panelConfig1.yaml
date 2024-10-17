@@ -19,7 +19,7 @@ cells:
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  rect:
+  peer1:
     dataRef: "FW-RU-IAP2: ICMP response time"
     label:
       separator: "cr"
