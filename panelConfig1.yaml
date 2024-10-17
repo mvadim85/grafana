@@ -14,16 +14,9 @@ anchorLinks:
 cellIdPreamble: "cell-"
 cells: 
   peer1:
-    dataRef: "FW-RU-IAP2: ICMP response time"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 2
-    labelColor:
+     fillColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
-    fillColor:
-      colors: "green"
+        - {color: "semi-dark-green", level: 0}
+        - {color: "orange", level: 400}
+        - {color: "red", level: 800}
