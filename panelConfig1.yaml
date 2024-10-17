@@ -83,14 +83,14 @@ cells:
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
-  185.224.228.193:
+  185.224.228.193IAP2:
     dataRef: "R-RU-IAP1 - grafana: Operational status for peer 185.224.228.193 IAP2"
     fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
-  212.48.38.129:
+  212.48.38.129IAP2:
     dataRef: "R-RU-IAP1 - grafana: Operational status for peer 212.48.38.129 IAP2"
     fillColor:
       gradientMode: "hue"
