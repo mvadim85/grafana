@@ -13,24 +13,88 @@ anchorLinks:
 
 cellIdPreamble: "cell-"
 cells: 
-  peer1:
+  178.176.133.56:
     dataRef: "R-RU-IAP1 - grafana: Operational status for peer 178.176.133.56"
-#    label:
-#      separator: "cr"
-#      units: "ops"
-#      decimalPoints: 0
     fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
-    fillLevel:
-      # The optional data value at or below which the fillLevel will be set to 0%.
-      thresholdOffValue: 0
+  185.224.228.193:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 185.224.228.193"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  195.208.208.100:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 195.208.208.100"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  195.208.209.33:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 195.208.209.33"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  195.208.209.38:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 195.208.209.38"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  195.208.215.100:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 195.208.215.100"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  212.48.38.129:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 212.48.38.129"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  91.213.169.32:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 91.213.169.32"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  91.213.169.1:
+    dataRef: "R-RU-IAP2 - grafana: Operational status for peer 91.213.169.1"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  178.176.133.58:
+    dataRef: "R-RU-IAP2 - grafana: Operational status for peer 178.176.133.58"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  185.224.228.193:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 185.224.228.193 IAP2"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  212.48.38.129:
+    dataRef: "R-RU-IAP1 - grafana: Operational status for peer 212.48.38.129 IAP2"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
 
-      # These terms define the conversion from incoming data values to percent-fill.
-      thresholdLwrValue: 0
-      thresholdLwrFillPercent: 0
-      thresholdUprValue: 900
-      thresholdUprFillPercent: 100
-      fillDirection: 'bottomToTop'
