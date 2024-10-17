@@ -15,13 +15,12 @@ cellIdPreamble: "cell-"
 cells: 
   peer1:
     dataRef: "R-RU-IAP1 - grafana: Operational status for peer 178.176.133.56"
-    label:
-      separator: "cr"
-      units: "ops"
-      decimalPoints: 0
+#    label:
+#      separator: "cr"
+#      units: "ops"
+#      decimalPoints: 0
     fillColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 400}
-        - {color: "red", level: 800}
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
