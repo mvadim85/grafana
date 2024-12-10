@@ -1,0 +1,37 @@
+
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  178.176.133.56:
+    dataRef: "DVDCRUMA01 stack1 - grafana: ATOSBOX_Ping_Stack_sw1"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  185.224.228.193:
+    dataRef: "DVDCRUMA02 stack2 - grafana: ATOSBOX_Ping_Stack_sw2"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  195.208.208.100:
+    dataRef: "DVDCRUMA03 stack3 - grafana: ATOSBOX_Ping_Stack_sw3"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
