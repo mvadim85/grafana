@@ -22,7 +22,7 @@ cells:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
   192.168.200.7:
-    dataRef: "ABXADS007_grafana: Ping ABXADS007 grafana"
+    dataRef: "ABXADS007_grafana: Ping_ABXADS007_grafana"
     fillColor:
       gradientMode: "hue"
       thresholds:
