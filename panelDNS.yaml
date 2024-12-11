@@ -1,0 +1,30 @@
+
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  192.168.200.8:
+    dataRef: "ABXADS008_grafana: Ping ABXADS008 grafana"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  192.168.200.7:
+    dataRef: "ABXADS007_grafana: Ping ABXADS008 grafana"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
