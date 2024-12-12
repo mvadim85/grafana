@@ -1,0 +1,45 @@
+
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  192.168.199.11:
+    dataRef: "abxmsx001  - E2k19 Mailbox: ATOSBOX_Ping_Stack_sw1"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  192.168.199.12:
+    dataRef: "abxmsx002  - E2k19 Mailbox: ATOSBOX_Ping_Stack_sw2"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  192.168.199.13:
+    dataRef: "abxmsx003  - E2k19 Mailbox: ATOSBOX_Ping_Stack_sw3"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  192.168.199.14:
+    dataRef: "abxmsx004  - E2k19 Mailbox: ATOSBOX_Ping_Stack_sw4"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+
