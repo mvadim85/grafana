@@ -1,0 +1,30 @@
+
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  192.168.199.16:
+    dataRef: "abxafs002 - ADFS: ICMP PING abxafs002 - ADFS"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
+  192.168.199.15:
+    dataRef: "abxafs001 - ADFS: ICMP PING abxafs001 - ADFS"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
