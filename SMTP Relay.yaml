@@ -1,0 +1,23 @@
+
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  192.168.200.46:
+    dataRef: "Smtp.int.atosbox.ru  - SMTP Relay VIP: ATOSBOX_PingHost"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}
