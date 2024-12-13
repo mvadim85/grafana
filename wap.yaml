@@ -15,14 +15,14 @@ anchorLinks:
 cellIdPreamble: "cell-"
 cells:
   192.168.246.33:
-    dataRef: "Abxsmg001 - INT: Ping Abxsmg001 - INT"
+    dataRef: "abxwap001 - INT: ATOSBOX_PingHost abxwap001 - INT"
     fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}
   192.168.246.34:
-    dataRef: "Abxsmg002 - INT: Ping Abxsmg002 - INT"
+    dataRef: "abxwap002 - INT: ATOSBOX_PingHost abxwap002 - INT"
     fillColor:
       gradientMode: "hue"
       thresholds:
